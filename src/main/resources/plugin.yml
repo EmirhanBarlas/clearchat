@@ -1,0 +1,10 @@
+name: ClearChat
+version: 1.0
+main: org.splendid.clearchat.ClearChatPlugin
+author: _Barlas_
+description: A simple plugin to clear chat with /clear command.
+commands:
+  clear:
+    description: Clear the chat
+    usage: /clear
+    permission: clearchat.clear
