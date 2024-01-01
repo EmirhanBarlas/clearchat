@@ -30,7 +30,7 @@ public class ClearChatPlugin extends JavaPlugin implements CommandExecutor {
         Player player = (Player) sender;
         if (player.hasPermission("clearchat.clear")) {
             clearChat();
-            player.sendMessage(ChatColor.GREEN + "Sohbet" + player.getName() + " tarafından temizlendi!");
+            player.sendMessage(ChatColor.RED + "Sohbet" + player.getName() + " tarafından temizlendi!");
         } else {
             player.sendMessage(ChatColor.RED + "Bu komutu kullanma izniniz yok!");
         }
